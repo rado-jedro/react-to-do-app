@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './Button.scss';
+// eslint-disable-next-line no-unused-vars
+import PropTypes from 'prop-types';
 
+// eslint-disable-next-line react/prop-types
 const Button = ({variant = '', ...otherProps}) => (
   <button 
     {...otherProps} 
