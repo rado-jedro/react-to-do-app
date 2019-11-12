@@ -7,7 +7,7 @@ export const getCardsForColumns =
 
 
 const mapStateToProps = (state, props) => ({
-  columns: getCardsForColumns(state, props.id),
+  cards: getCardsForColumns(state, props.id),
 });
 
 export default connect(mapStateToProps)(Column);
